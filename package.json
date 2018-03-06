@@ -1,0 +1,26 @@
+{
+  "name": "react-tic-tac-toe",
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "redux": "latest",
+    "react-redux": "latest",
+    "react-router-dom": "latest"
+  },
+  "scripts": {
+    "start:dev": "webpack-dev-server --mode development"
+  },
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-env": "latest",
+    "babel-preset-react": "latest",
+    "css-loader": "latest",
+    "style-loader": "latest",
+    "file-loader": "latest",
+    "url-loader": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  }
+}

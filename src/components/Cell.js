@@ -6,13 +6,14 @@ class Cell extends React.Component {
     this.state = {};
   }
 
-  handleClick () {
+  handleClick (event) {
+    event.preventDefault();
     this.props.handleClick(this.props.row, this.props.col);
   }
 
   render() {
     return (
-      <span className="cell" onClick={this.handleClick.bind(this)}></span>
+      <span className="cell" onClick={this.handleClick.bind(this)}>{this.props.val}</span>
     );
   }
 }
